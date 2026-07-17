@@ -30,6 +30,8 @@
         <p class="paragraph">
           기능 구현뿐 아니라 여러 개발자가 같은 기준으로 일할 수 있는 개발 환경을 만들고,
           운영 가능한 형태로 시스템을 정비하는 데 강점이 있습니다.
+          최근에는 AI 에이전트 기반 코드리뷰·문서 품질 평가 자동화를 개발 과정에 정착시켜
+          워크플로 자체를 고도화하고 있습니다.
         </p>
       </section>
       <section>
@@ -53,18 +55,28 @@
                 현재
               </span>
               <h5>Description<span class="period-mark">.</span></h5>
-              <p>산업통상자원부 연구개발 과제 - 시스템 엔지니어링 프로젝트 관리 도구 개발</p>
+              <p>산업통상자원부 연구개발 과제 - 시스템엔지니어링 프로젝트 관리 도구 및 VS Code 기반 모델링 IDE의 문서 도구 개발</p>
               <h5>What did I do<span class="period-mark">.</span></h5>
+              <p>VS Code 기반 모델링 IDE 문서 도구 (2026.02 ~ 현재)</p>
+              <ul>
+                <li>시스템 모델링 IDE의 문서 에디터·표 에디터 개발 주도 (TypeScript/React, pnpm 모노레포) - 블록 기반 편집, 모델 요소 참조·임베드, 슬래시 명령 카탈로그</li>
+                <li>PDF/DOCX/HWPX 다중 포맷 문서 내보내기 파이프라인 구축 - 렌더링 로직 단일화, 쪽번호·머리말·표 스타일 보존</li>
+                <li>에디터 공통 콘텐츠 인터페이스 설계로 패키지 간 콘텐츠 공유 구조 마련</li>
+                <li>웹뷰 보안 경계 강화 - iframe 샌드박스 격리, 작업 공간 경로 접근 검증</li>
+                <li>아키텍처 의사결정 기록(ADR) 26건 작성, trunk-based git 협업 정책·auto-merge CI 게이트 설계, 문서 도구 패키지 릴리즈 주도</li>
+                <li>AI 에이전트 기반 개발 워크플로 구축 - 코드리뷰 하네스(보안·성능·아키텍처·스타일 4축 병렬)와 문서 품질 평가 하네스 자동화</li>
+                <li>6개월간 main 머지 PR 54건, 주간 개발회의 주관</li>
+                <br/>→ 모델 데이터와 연동된 문서 작성부터 다중 포맷 출력까지 IDE 안에서 완결되는 문서 도구 구축
+              </ul>
+              <p>웹 기반 프로젝트 관리 도구 (2025.07 ~ 2026.01)</p>
               <ul>
                 <li>Prisma 기반 DB 스키마 관리 전략 수립 및 동기화 스크립트 구축</li>
-                <li>Git Flow 기반 브랜치 전략 수립 (main/dev/feature)</li>
-                <li>GitHub Actions 기반 CI/CD 파이프라인 구축</li>
-                <li>Docker 컨테이너화 및 Google Cloud Run 배포 자동화</li>
-                <li>Playwright E2E 테스트 인프라 소급 적용</li>
+                <li>GitHub Actions CI/CD 파이프라인, Docker 컨테이너화, Google Cloud Run 배포 자동화</li>
+                <li>Playwright E2E 테스트 인프라 소급 적용, Git Flow 기반 브랜치 전략 수립</li>
                 <br/>→ 운영 안정성과 협업 효율을 높이는 개발 기반 마련
               </ul>
               <h5>Tech Stack<span class="period-mark">.</span></h5>
-              <p>Next.js, React, Fluent UI, Node.js, Supabase, PostgreSQL, Zustand, React Query, SCSS, Playwright, Docker, Google Cloud Run, GitHub Actions</p>
+              <p>TypeScript, React, Node.js, VS Code Extension API, pnpm, Vitest, Playwright, Next.js, Fluent UI, Supabase, PostgreSQL, Zustand, React Query, SCSS, Docker, Google Cloud Run, GitHub Actions</p>
             </div>
           </div>
         </div>
@@ -221,11 +233,13 @@
           <ul>
             <li>시스템 안정화 · 개발 표준화</li>
             <li>형상관리 · 배포 자동화 (Git, CI/CD, Docker)</li>
+            <li>AI 에이전트 기반 개발 워크플로 자동화 (코드리뷰 · 문서 품질 평가)</li>
           </ul>
         </div>
         <div class="other">
           <h3>Development<span class="period-mark">.</span></h3>
           <ul>
+            <li>TypeScript, React, Node.js, VS Code Extension</li>
             <li>Java, Spring Framework</li>
           </ul>
         </div>

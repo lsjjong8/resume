@@ -104,6 +104,13 @@
       "endDate": "2020-08"
     },
     {
+      "institution": "에이써티",
+      "area": "ISO 27001:2013 정보보호경영시스템",
+      "studyType": "수료",
+      "startDate": "2018-10",
+      "endDate": "2018-10"
+    },
+    {
       "institution": "IT스쿨정보기술교육원",
       "area": "네트워크 운영관리",
       "studyType": "수료",
@@ -111,7 +118,29 @@
       "endDate": "2016-10"
     }
   ],
+  "awards": [
+    {
+      "title": "2013 2차 기업바로알기 경진대회 우수상",
+      "date": "2014-01",
+      "awarder": "충남대학교 산학협력 선도대학 육성사업단"
+    }
+  ],
   "certificates": [
+    {
+      "name": "광통신사 2급",
+      "date": "2017-10",
+      "issuer": "대한정보통신기술인협회"
+    },
+    {
+      "name": "MCSE (Microsoft Certified Solutions Expert)",
+      "date": "2016-07",
+      "issuer": "Microsoft"
+    },
+    {
+      "name": "CCNA (Cisco Certified Network Associate)",
+      "date": "2016-05",
+      "issuer": "Cisco Systems"
+    },
     {
       "name": "정보처리기사",
       "date": "2016-05",

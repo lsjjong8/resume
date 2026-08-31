@@ -87,6 +87,17 @@ ul > li:before {
   color: #3a7bd5;
 }
 
+/* 목록 뒤에 붙는 요약 문장 - 글머리표 없이 표시.
+   margin-top은 기존 <br/>이 만들던 빈 줄 한 칸(목록 글자 크기 1.1rem)을 대체한다 */
+ul > li.summary {
+  padding-left: 0;
+  margin-top: 1.1rem;
+}
+
+ul > li.summary:before {
+  content: none;
+}
+
 .row {
   display: flex;
   padding: 3rem 0;
